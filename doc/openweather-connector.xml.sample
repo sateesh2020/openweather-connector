@@ -1,0 +1,9 @@
+<!-- BEGIN_INCLUDE(openweather:current-weather-of-city) -->
+    <openweather:current-Weather-of-city query="#[map-payload:query]" />
+<!-- END_INCLUDE(openweather:current-weather-of-city) -->
+<!-- BEGIN_INCLUDE(openweather:current-Weather-of-station) -->
+    <openweather:current-Weather-of-station id="#[map-payload:id]" />
+<!-- END_INCLUDE(openweather:current-weather-of-station) -->
+<!-- BEGIN_INCLUDE(openweather:openweather:current-weatherfor-langitude-and-latitude) -->
+    <openweather:openweather:current-weatherfor-langitude-and-latitude count="#[map-payload:count]" longitude="#[map-payload:longitude]" latitude="#[map-payload: latitude=]"  />
+<!-- END_INCLUDE(openweather:openweather:current-weatherfor-langitude-and-latitude) -->
